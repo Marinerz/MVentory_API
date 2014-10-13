@@ -107,8 +107,7 @@ class MVentory_API_Model_Layer_Filter_Attribute
         usort($other, array($this, '_compareLabels'));
 
         $data = array_merge($top, $other);
-      } else
-        usort($data, array($this, '_compareLabels'));
+      } 
 
       $tags = $layer->getStateTags(
         array(
