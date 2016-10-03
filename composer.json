@@ -1,0 +1,14 @@
+{
+    "name": "mventory/api",
+    "type": "magento-module",
+    "description": "Api for mventory/tradme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anatoly A. Kazantsev"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
